@@ -1,0 +1,322 @@
+(footprint "RCJ-01_Mono"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "75210f22-17d7-430f-89b9-eadee9a92e98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RCJ-01_Stereo"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8ddfc24-3ef9-4ce5-adbf-cc365ba4ecff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9e15ec5-5f29-4044-bfd5-fda97ad0e0c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87013c4e-465c-4202-9ce7-3115ca70e700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a49931-e7e8-4943-b0bd-cdc14ba2a0f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.5 4)
+		(end 7.5 13.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "db004ded-23d2-41ab-8d03-99fc42116476")
+	)
+	(fp_rect
+		(start -4.5 -3.5)
+		(end 4.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "46c980c6-b9b7-4a11-a0cb-fbb192c850bd")
+	)
+	(fp_rect
+		(start 21 4)
+		(end 36 13.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "65799062-9362-4ccc-8ce2-6448093bf0a4")
+	)
+	(fp_rect
+		(start 24 -3.5)
+		(end 33 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "87c9ece8-d17a-4604-b90d-89fc9a302bdd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93d36cae-6da2-44c3-ba0d-973d3eee9dcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "e43ac89e-6314-45a2-9e5e-b95cd7f02b13")
+		(pts
+			(xy 6.75 10.5) (xy 21 10.5)
+		)
+		(height 0)
+		(gr_text "14.2500 mm"
+			(at 13.875 9.4 0)
+			(layer "F.SilkS")
+			(uuid "e43ac89e-6314-45a2-9e5e-b95cd7f02b13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "3b8440f8-e4d6-423b-a872-9dd5d2a774c5")
+		(pts
+			(xy -5 10.5) (xy 0 10.5)
+		)
+		(height 5)
+		(gr_text "5.0000 mm"
+			(at -2.5 14.4 0)
+			(layer "Cmts.User")
+			(uuid "3b8440f8-e4d6-423b-a872-9dd5d2a774c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "b020ff93-3359-4a16-83f1-c8267c065a5f")
+		(pts
+			(xy -5 10.5) (xy 5 10.5)
+		)
+		(height 10)
+		(gr_text "10.0000 mm"
+			(at 0 19.4 0)
+			(layer "Cmts.User")
+			(uuid "b020ff93-3359-4a16-83f1-c8267c065a5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "cc44618d-d88f-4e33-aa8c-c1ee0326e559")
+		(pts
+			(xy 0 6) (xy 0 10.5)
+		)
+		(height 13.5)
+		(gr_text "4.5000 mm"
+			(at -14.6 8.25 90)
+			(layer "Cmts.User")
+			(uuid "cc44618d-d88f-4e33-aa8c-c1ee0326e559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "1" thru_hole circle
+		(at -5 10.5)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d8b12ec-3f31-4308-84d0-860dc1b95958")
+	)
+	(pad "1" thru_hole circle
+		(at 0 6)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50bff518-9feb-4fcc-a25b-c393011205ff")
+	)
+	(pad "1" thru_hole circle
+		(at 5 10.5)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e9165bc-647e-4179-962f-0641c51866a7")
+	)
+	(pad "1" thru_hole circle
+		(at 24 10.5)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "679ac36b-dad3-4e50-80f9-71f41e44aa6a")
+	)
+	(pad "1" thru_hole circle
+		(at 29 6)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4abc0a5d-5a6a-4124-af28-5f19f48d28a7")
+	)
+	(pad "1" thru_hole circle
+		(at 34 10.5)
+		(size 3.5 3.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a4eb06b-b8a1-41d8-9f9a-b072267c08aa")
+	)
+	(pad "2" thru_hole circle
+		(at 0 10.5)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4e12908-7cbe-407a-9548-5a7438ab1c9e")
+	)
+	(pad "2" thru_hole circle
+		(at 29 10.5)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "def16c35-7d3c-4213-abfc-f188867be881")
+	)
+)

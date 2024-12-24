@@ -1,0 +1,856 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "752fb79e-9761-444d-aeb7-c2757f987636")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 194.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e18e7cee-e91c-4077-937a-ad28304a3d08")
+	)
+	(junction
+		(at 191.77 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faef6ed3-1557-44e0-8907-f139fda6c62b")
+	)
+	(wire
+		(pts
+			(xy 194.31 120.65) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028f0e70-a067-4d1f-ab62-4a3aca411bac")
+	)
+	(wire
+		(pts
+			(xy 187.96 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ee098a-ad17-435f-b924-e52dd00918ae")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16545b19-f44b-40b8-bfac-a4cf74a21d65")
+	)
+	(wire
+		(pts
+			(xy 187.96 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24480918-1189-4bab-9bf6-d5297b2bf2a4")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e34f1e-ee24-4c6f-a46b-81f9233a4ab7")
+	)
+	(wire
+		(pts
+			(xy 194.31 64.77) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352b566d-c497-4f6d-8e7b-67120bd6c50a")
+	)
+	(wire
+		(pts
+			(xy 194.31 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5859ea05-dfc5-4a2f-8754-6d320543d2d4")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c70463-743a-4e01-a73e-bd3fa86a91ba")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a20711-76d1-41e4-a0ac-4b7250ca02e1")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874f4942-831c-4945-9dba-6ba6fdce1552")
+	)
+	(wire
+		(pts
+			(xy 187.96 64.77) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc633b8-3db7-443e-bcae-4a4f3597a633")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a055c614-4d52-486f-be82-74d9b6013f5d")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe35891-c8da-42d8-9414-223a1686cc61")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cc21ba-a2af-45a8-a45f-b153b2703629")
+	)
+	(wire
+		(pts
+			(xy 125.73 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62909d7-dc94-4853-9f33-6b5a09a1290e")
+	)
+	(wire
+		(pts
+			(xy 125.73 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf5c860-fa70-416c-9128-c5d31a382fdc")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf2bcce-07d6-4a67-ab9b-8c2337e3c739")
+		(property "Reference" "H2"
+			(at 24.13 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 21.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4872e57b-9e0b-40a1-aa65-1b2af865a51b")
+		(property "Reference" "H4"
+			(at 24.13 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 21.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab1bfdc-4b34-4a00-bf1c-ec4a1b28446a")
+		(property "Reference" "H3"
+			(at 24.13 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 21.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61eb0eec-c6e1-4d14-b9e6-761118571adf")
+		(property "Reference" "H1"
+			(at 24.13 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 21.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 81.534)
+		(size 26.67 20.066)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c090f92-e888-4b23-b443-29b5cb4bc8b9")
+		(property "Sheetname" "RIAA Preamp"
+			(at 161.29 80.8224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phono_preamp.kicad_sch"
+			(at 161.29 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 161.29 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7115ac72-e238-4234-a40e-2856f66faffe")
+		)
+		(pin "OUT" input
+			(at 161.29 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4c6e403-f766-4faa-9d45-9fc80219fa70")
+		)
+		(pin "+15V" input
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac54fa20-a212-497b-92c8-b8e3309e4127")
+		)
+		(pin "-15V" input
+			(at 187.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "835ef9ee-1ab0-44f7-adc8-fce6748a8b7a")
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 57.15)
+		(size 26.67 18.034)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3acb23c5-20cb-4e0f-aa3a-0d8abd1331c4")
+		(property "Sheetname" "Voltage regulator"
+			(at 161.29 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_regulator.kicad_sch"
+			(at 161.29 75.7686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "-15V" output
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c0b174e-391f-45ad-ab4d-dfdf99cf3184")
+		)
+		(pin "+15V" output
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "576a7559-922e-4430-89c8-5a5a066f86a5")
+		)
+		(pin "VE+" input
+			(at 161.29 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffac0787-2459-4815-a1ce-060c0a2d7839")
+		)
+		(pin "VE-" input
+			(at 161.29 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6e6c787-b2aa-44a7-b10d-fc3f887f01f3")
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 107.95)
+		(size 26.67 20.066)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9dd0b524-ce54-4d69-b30b-dfce42b2dd6b")
+		(property "Sheetname" "RIAA Preamp1"
+			(at 161.29 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phono_preamp.kicad_sch"
+			(at 161.29 128.6006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 161.29 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8877a1aa-a0f4-4022-839b-887d22731d4f")
+		)
+		(pin "OUT" input
+			(at 161.29 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fec6832f-280e-4175-8cf4-c6b160486e63")
+		)
+		(pin "+15V" input
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a37ba620-d804-4d66-af7e-f077847724ec")
+		)
+		(pin "-15V" input
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d556aca5-273a-4fbd-b248-b0f06d390d3a")
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.822 57.15)
+		(size 25.908 70.866)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b15bc078-4676-4a6d-a38b-51a732ab2409")
+		(property "Sheetname" "Interfaces"
+			(at 99.822 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interfaces.kicad_sch"
+			(at 99.822 128.6006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PREAMP_IN2" input
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bab77c91-8cea-4238-9556-97d10e855c91")
+		)
+		(pin "PREAMP_IN1" input
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df620f18-b4df-4643-8367-1492b8876b6e")
+		)
+		(pin "PREAMP_OUT1" input
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35e3d8c2-f9c2-4d6f-bfbc-1ce62c57e8ee")
+		)
+		(pin "PREAMP_OUT2" input
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce316d47-5cb9-453a-9837-029b60c3e060")
+		)
+		(pin "+VE" output
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "764d6cfe-8790-479d-afd4-85e9915f98b7")
+		)
+		(pin "-VE" output
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e08d99d9-f223-41e4-a9c7-814d6e80cd87")
+		)
+		(instances
+			(project "riaa_preamp"
+				(path "/752fb79e-9761-444d-aeb7-c2757f987636"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
